@@ -1,0 +1,100 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+#title{
+    background: #fff;
+    width: 100%;
+    padding: 5px 15px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+header {
+    background-color: #fff;
+    color: white;
+    padding: 0;
+    height: auto;
+    width: 100%;
+    
+}
+/* header #cart{
+    float: right;
+    display: flex;
+    width: 5%;
+    height: 10%;
+    padding: 0;
+    float: right;
+} */
+
+header img {
+    margin: 0;
+    width: 5%;
+    height: 10%;
+    padding: 0;
+}
+
+main {
+    padding: 2rem;
+}
+
+section {
+    margin-bottom: 2rem;
+}
+
+section form #title{
+    margin-bottom: 1rem;
+    width: 88%;
+    display: inline;
+}
+
+label {
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 1rem;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+.product {
+    border: 1px solid #ccc;
+    padding: 1rem;
+
+    /* position: absolute;
+    top: 30%;
+    left: 55%; */
+}
+
+.product h3 {
+    margin-top: 0;
+}
+
+.image-container {
+    display: flex;
+    height: 50%;
+    width: 50%;
+}
+
+section > form > img{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    width: 5%;
+    height: 10%;
+    padding: 0;
+    float: right;
+}
